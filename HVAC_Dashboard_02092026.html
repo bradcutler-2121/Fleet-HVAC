@@ -26,10 +26,8 @@
           <h1 class="text-2xl md:text-3xl font-bold">HVAC Terminal Summary Dashboard</h1>
           <p class="text-blue-200 mt-1">Report Date: February 9, 2026</p>
           <nav class="mt-2 flex gap-3 text-sm no-print">
-            <a href="index.html" class="text-blue-200 hover:text-white hover:border-b-2 hover:border-[#ffc220] pb-0.5">🏠 Home</a>
             <span class="text-white font-semibold border-b-2 border-[#ffc220] pb-0.5">Overview</span>
             <a href="HVAC_Aging_Analysis_02092026.html" class="text-blue-200 hover:text-white hover:border-b-2 hover:border-[#ffc220] pb-0.5">Aging Analysis</a>
-            <a href="HVAC_Unit_Detail_02092026.html" class="text-blue-200 hover:text-white hover:border-b-2 hover:border-[#ffc220] pb-0.5">Unit Detail</a>
           </nav>
         </div>
         <div class="flex items-center gap-3 no-print">
@@ -199,6 +197,38 @@ async function init() {
   "overall": {
     "total_units": 10087,
     "unique_stores": 2699,
+    "regions": [
+      "10B",
+      "11B",
+      "12B",
+      "13B",
+      "14B",
+      "15B",
+      "1M",
+      "21E",
+      "22E",
+      "23E",
+      "24E",
+      "25E",
+      "2M",
+      "31A",
+      "32A",
+      "33A",
+      "34A",
+      "35A",
+      "36A",
+      "37A",
+      "38A",
+      "3M",
+      "41F",
+      "42F",
+      "43F",
+      "44F",
+      "45F",
+      "46F",
+      "4M",
+      "5M"
+    ],
     "reasons": {
       "ZONE TEMP": 6706,
       "COMM LOSS": 3376,
@@ -225,6 +255,14 @@ async function init() {
       "stats": {
         "total_units": 3639,
         "unique_stores": 720,
+        "regions": [
+          "41F",
+          "42F",
+          "43F",
+          "44F",
+          "45F",
+          "46F"
+        ],
         "reasons": {
           "COMM LOSS": 843,
           "ZONE TEMP": 2795,
@@ -251,6 +289,9 @@ async function init() {
           "stats": {
             "total_units": 1068,
             "unique_stores": 203,
+            "regions": [
+              "43F"
+            ],
             "reasons": {
               "ZONE TEMP": 834,
               "COMM LOSS": 234
@@ -274,6 +315,9 @@ async function init() {
             "Carl Gogol": {
               "total_units": 245,
               "unique_stores": 32,
+              "regions": [
+                "43F"
+              ],
               "reasons": {
                 "ZONE TEMP": 181,
                 "COMM LOSS": 64
@@ -296,6 +340,9 @@ async function init() {
             "Keisha Tharpe": {
               "total_units": 228,
               "unique_stores": 35,
+              "regions": [
+                "43F"
+              ],
               "reasons": {
                 "ZONE TEMP": 171,
                 "COMM LOSS": 57
@@ -318,6 +365,9 @@ async function init() {
             "Gail Holznagel": {
               "total_units": 169,
               "unique_stores": 41,
+              "regions": [
+                "43F"
+              ],
               "reasons": {
                 "ZONE TEMP": 134,
                 "COMM LOSS": 35
@@ -339,6 +389,9 @@ async function init() {
             "Adam Wolever": {
               "total_units": 165,
               "unique_stores": 35,
+              "regions": [
+                "43F"
+              ],
               "reasons": {
                 "COMM LOSS": 19,
                 "ZONE TEMP": 146
@@ -361,6 +414,9 @@ async function init() {
             "Adam Descoteaux": {
               "total_units": 153,
               "unique_stores": 30,
+              "regions": [
+                "43F"
+              ],
               "reasons": {
                 "COMM LOSS": 34,
                 "ZONE TEMP": 119
@@ -383,6 +439,9 @@ async function init() {
             "Kevin Gentry": {
               "total_units": 108,
               "unique_stores": 30,
+              "regions": [
+                "43F"
+              ],
               "reasons": {
                 "ZONE TEMP": 83,
                 "COMM LOSS": 25
@@ -407,6 +466,9 @@ async function init() {
           "stats": {
             "total_units": 624,
             "unique_stores": 110,
+            "regions": [
+              "44F"
+            ],
             "reasons": {
               "COMM LOSS": 182,
               "ZONE TEMP": 442
@@ -431,6 +493,9 @@ async function init() {
             "Jose Dourado": {
               "total_units": 232,
               "unique_stores": 42,
+              "regions": [
+                "44F"
+              ],
               "reasons": {
                 "ZONE TEMP": 197,
                 "COMM LOSS": 35
@@ -454,6 +519,9 @@ async function init() {
             "Jimmy Pope": {
               "total_units": 164,
               "unique_stores": 19,
+              "regions": [
+                "44F"
+              ],
               "reasons": {
                 "COMM LOSS": 69,
                 "ZONE TEMP": 95
@@ -476,6 +544,9 @@ async function init() {
             "Joshua Anderson": {
               "total_units": 147,
               "unique_stores": 29,
+              "regions": [
+                "44F"
+              ],
               "reasons": {
                 "COMM LOSS": 60,
                 "ZONE TEMP": 87
@@ -498,6 +569,9 @@ async function init() {
             "Kevin Hubbard": {
               "total_units": 81,
               "unique_stores": 20,
+              "regions": [
+                "44F"
+              ],
               "reasons": {
                 "ZONE TEMP": 63,
                 "COMM LOSS": 18
@@ -523,6 +597,9 @@ async function init() {
           "stats": {
             "total_units": 619,
             "unique_stores": 106,
+            "regions": [
+              "41F"
+            ],
             "reasons": {
               "ZONE TEMP": 527,
               "COMM LOSS": 92
@@ -546,6 +623,9 @@ async function init() {
             "Steve Rickabaugh": {
               "total_units": 191,
               "unique_stores": 34,
+              "regions": [
+                "41F"
+              ],
               "reasons": {
                 "ZONE TEMP": 150,
                 "COMM LOSS": 41
@@ -568,6 +648,9 @@ async function init() {
             "Francisco Ullola": {
               "total_units": 152,
               "unique_stores": 23,
+              "regions": [
+                "41F"
+              ],
               "reasons": {
                 "COMM LOSS": 12,
                 "ZONE TEMP": 140
@@ -590,6 +673,9 @@ async function init() {
             "George Boskie": {
               "total_units": 145,
               "unique_stores": 24,
+              "regions": [
+                "41F"
+              ],
               "reasons": {
                 "ZONE TEMP": 124,
                 "COMM LOSS": 21
@@ -612,6 +698,9 @@ async function init() {
             "James Williams": {
               "total_units": 131,
               "unique_stores": 25,
+              "regions": [
+                "41F"
+              ],
               "reasons": {
                 "ZONE TEMP": 113,
                 "COMM LOSS": 18
@@ -637,6 +726,9 @@ async function init() {
           "stats": {
             "total_units": 552,
             "unique_stores": 114,
+            "regions": [
+              "46F"
+            ],
             "reasons": {
               "COMM LOSS": 159,
               "ZONE TEMP": 393
@@ -661,6 +753,9 @@ async function init() {
             "Jermaine Edwards": {
               "total_units": 178,
               "unique_stores": 27,
+              "regions": [
+                "46F"
+              ],
               "reasons": {
                 "ZONE TEMP": 114,
                 "COMM LOSS": 64
@@ -684,6 +779,9 @@ async function init() {
             "Rafael Leon": {
               "total_units": 132,
               "unique_stores": 33,
+              "regions": [
+                "46F"
+              ],
               "reasons": {
                 "ZONE TEMP": 105,
                 "COMM LOSS": 27
@@ -707,6 +805,9 @@ async function init() {
             "Gerald Pruitt": {
               "total_units": 124,
               "unique_stores": 29,
+              "regions": [
+                "46F"
+              ],
               "reasons": {
                 "COMM LOSS": 37,
                 "ZONE TEMP": 87
@@ -729,6 +830,9 @@ async function init() {
             "Roger Dube": {
               "total_units": 118,
               "unique_stores": 25,
+              "regions": [
+                "46F"
+              ],
               "reasons": {
                 "COMM LOSS": 31,
                 "ZONE TEMP": 87
@@ -754,6 +858,9 @@ async function init() {
           "stats": {
             "total_units": 437,
             "unique_stores": 93,
+            "regions": [
+              "42F"
+            ],
             "reasons": {
               "ZONE TEMP": 337,
               "COMM LOSS": 100
@@ -778,6 +885,9 @@ async function init() {
             "Ismael Honore": {
               "total_units": 172,
               "unique_stores": 40,
+              "regions": [
+                "42F"
+              ],
               "reasons": {
                 "ZONE TEMP": 131,
                 "COMM LOSS": 41
@@ -801,6 +911,9 @@ async function init() {
             "Carin Rouleau": {
               "total_units": 143,
               "unique_stores": 30,
+              "regions": [
+                "42F"
+              ],
               "reasons": {
                 "ZONE TEMP": 96,
                 "COMM LOSS": 47
@@ -823,6 +936,9 @@ async function init() {
             "Robert Daley": {
               "total_units": 122,
               "unique_stores": 23,
+              "regions": [
+                "42F"
+              ],
               "reasons": {
                 "ZONE TEMP": 110,
                 "COMM LOSS": 12
@@ -848,6 +964,9 @@ async function init() {
           "stats": {
             "total_units": 335,
             "unique_stores": 93,
+            "regions": [
+              "45F"
+            ],
             "reasons": {
               "COMM LOSS": 76,
               "ZONE TEMP": 258,
@@ -873,6 +992,9 @@ async function init() {
             "Richard Grubbs": {
               "total_units": 110,
               "unique_stores": 30,
+              "regions": [
+                "45F"
+              ],
               "reasons": {
                 "ZONE TEMP": 98,
                 "COMM LOSS": 12
@@ -895,6 +1017,9 @@ async function init() {
             "Alissa Welch": {
               "total_units": 74,
               "unique_stores": 19,
+              "regions": [
+                "45F"
+              ],
               "reasons": {
                 "ZONE TEMP": 69,
                 "COMM LOSS": 5
@@ -917,6 +1042,9 @@ async function init() {
             "Julie Penrow-Canfield": {
               "total_units": 56,
               "unique_stores": 14,
+              "regions": [
+                "45F"
+              ],
               "reasons": {
                 "COMM LOSS": 24,
                 "ZONE TEMP": 32
@@ -939,6 +1067,9 @@ async function init() {
             "Jeff Jackson": {
               "total_units": 55,
               "unique_stores": 18,
+              "regions": [
+                "45F"
+              ],
               "reasons": {
                 "ZONE TEMP": 47,
                 "COMM LOSS": 8
@@ -960,6 +1091,9 @@ async function init() {
             "Guy Knight": {
               "total_units": 40,
               "unique_stores": 12,
+              "regions": [
+                "45F"
+              ],
               "reasons": {
                 "COMM LOSS": 27,
                 "ZONE TEMP": 12,
@@ -986,6 +1120,9 @@ async function init() {
           "stats": {
             "total_units": 4,
             "unique_stores": 1,
+            "regions": [
+              "42F"
+            ],
             "reasons": {
               "ZONE TEMP": 4
             },
@@ -1004,6 +1141,9 @@ async function init() {
             "Carin Rouleau": {
               "total_units": 4,
               "unique_stores": 1,
+              "regions": [
+                "42F"
+              ],
               "reasons": {
                 "ZONE TEMP": 4
               },
@@ -1026,6 +1166,13 @@ async function init() {
       "stats": {
         "total_units": 2732,
         "unique_stores": 716,
+        "regions": [
+          "21E",
+          "22E",
+          "23E",
+          "24E",
+          "25E"
+        ],
         "reasons": {
           "ZONE TEMP": 2008,
           "COMM LOSS": 722,
@@ -1052,6 +1199,9 @@ async function init() {
           "stats": {
             "total_units": 799,
             "unique_stores": 210,
+            "regions": [
+              "22E"
+            ],
             "reasons": {
               "ZONE TEMP": 581,
               "COMM LOSS": 218
@@ -1076,6 +1226,9 @@ async function init() {
             "Richard Varela": {
               "total_units": 178,
               "unique_stores": 50,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "ZONE TEMP": 127,
                 "COMM LOSS": 51
@@ -1099,6 +1252,9 @@ async function init() {
             "Brandon Williams": {
               "total_units": 135,
               "unique_stores": 29,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "ZONE TEMP": 76,
                 "COMM LOSS": 59
@@ -1121,6 +1277,9 @@ async function init() {
             "Scottie Starr": {
               "total_units": 119,
               "unique_stores": 25,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "ZONE TEMP": 86,
                 "COMM LOSS": 33
@@ -1143,6 +1302,9 @@ async function init() {
             "Scott Cameron": {
               "total_units": 112,
               "unique_stores": 23,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "ZONE TEMP": 98,
                 "COMM LOSS": 14
@@ -1164,6 +1326,9 @@ async function init() {
             "Derrick Sharp": {
               "total_units": 89,
               "unique_stores": 25,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "ZONE TEMP": 67,
                 "COMM LOSS": 22
@@ -1186,6 +1351,9 @@ async function init() {
             "Robert Peck": {
               "total_units": 88,
               "unique_stores": 29,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "COMM LOSS": 22,
                 "ZONE TEMP": 66
@@ -1207,6 +1375,9 @@ async function init() {
             "Terry White": {
               "total_units": 78,
               "unique_stores": 29,
+              "regions": [
+                "22E"
+              ],
               "reasons": {
                 "COMM LOSS": 17,
                 "ZONE TEMP": 61
@@ -1232,6 +1403,9 @@ async function init() {
           "stats": {
             "total_units": 778,
             "unique_stores": 206,
+            "regions": [
+              "21E"
+            ],
             "reasons": {
               "ZONE TEMP": 549,
               "COMM LOSS": 228,
@@ -1256,6 +1430,9 @@ async function init() {
             "DJ Czizek": {
               "total_units": 198,
               "unique_stores": 38,
+              "regions": [
+                "21E"
+              ],
               "reasons": {
                 "COMM LOSS": 80,
                 "ZONE TEMP": 118
@@ -1278,6 +1455,9 @@ async function init() {
             "Justin Miller": {
               "total_units": 151,
               "unique_stores": 33,
+              "regions": [
+                "21E"
+              ],
               "reasons": {
                 "ZONE TEMP": 102,
                 "COMM LOSS": 49
@@ -1299,6 +1479,9 @@ async function init() {
             "Bill Bee": {
               "total_units": 118,
               "unique_stores": 40,
+              "regions": [
+                "21E"
+              ],
               "reasons": {
                 "ZONE TEMP": 89,
                 "COMM LOSS": 29
@@ -1321,6 +1504,9 @@ async function init() {
             "Joseph Stockwell": {
               "total_units": 114,
               "unique_stores": 38,
+              "regions": [
+                "21E"
+              ],
               "reasons": {
                 "ZONE TEMP": 94,
                 "COMM LOSS": 20
@@ -1342,6 +1528,9 @@ async function init() {
             "Chadwick Nowak": {
               "total_units": 105,
               "unique_stores": 28,
+              "regions": [
+                "21E"
+              ],
               "reasons": {
                 "ZONE TEMP": 75,
                 "COMM LOSS": 29,
@@ -1365,6 +1554,9 @@ async function init() {
             "Steven Watkins": {
               "total_units": 92,
               "unique_stores": 29,
+              "regions": [
+                "21E"
+              ],
               "reasons": {
                 "COMM LOSS": 21,
                 "ZONE TEMP": 71
@@ -1390,6 +1582,9 @@ async function init() {
           "stats": {
             "total_units": 533,
             "unique_stores": 104,
+            "regions": [
+              "24E"
+            ],
             "reasons": {
               "ZONE TEMP": 426,
               "COMM LOSS": 106,
@@ -1414,6 +1609,9 @@ async function init() {
             "Jeff Mikesell": {
               "total_units": 149,
               "unique_stores": 26,
+              "regions": [
+                "24E"
+              ],
               "reasons": {
                 "ZONE TEMP": 114,
                 "COMM LOSS": 35
@@ -1436,6 +1634,9 @@ async function init() {
             "Bryan Archer": {
               "total_units": 133,
               "unique_stores": 25,
+              "regions": [
+                "24E"
+              ],
               "reasons": {
                 "ZONE TEMP": 121,
                 "COMM LOSS": 12
@@ -1458,6 +1659,9 @@ async function init() {
             "Mark Boatwright": {
               "total_units": 128,
               "unique_stores": 28,
+              "regions": [
+                "24E"
+              ],
               "reasons": {
                 "ZONE TEMP": 106,
                 "COMM LOSS": 22
@@ -1480,6 +1684,9 @@ async function init() {
             "Chad Pennington": {
               "total_units": 123,
               "unique_stores": 25,
+              "regions": [
+                "24E"
+              ],
               "reasons": {
                 "ZONE TEMP": 85,
                 "COMM LOSS": 37,
@@ -1505,6 +1712,9 @@ async function init() {
           "stats": {
             "total_units": 416,
             "unique_stores": 111,
+            "regions": [
+              "23E"
+            ],
             "reasons": {
               "ZONE TEMP": 311,
               "COMM LOSS": 105
@@ -1529,6 +1739,9 @@ async function init() {
             "Rob Beahl": {
               "total_units": 118,
               "unique_stores": 24,
+              "regions": [
+                "23E"
+              ],
               "reasons": {
                 "ZONE TEMP": 79,
                 "COMM LOSS": 39
@@ -1551,6 +1764,9 @@ async function init() {
             "Christian Campbell": {
               "total_units": 111,
               "unique_stores": 27,
+              "regions": [
+                "23E"
+              ],
               "reasons": {
                 "ZONE TEMP": 89,
                 "COMM LOSS": 22
@@ -1574,6 +1790,9 @@ async function init() {
             "Vincent Copcutt": {
               "total_units": 110,
               "unique_stores": 31,
+              "regions": [
+                "23E"
+              ],
               "reasons": {
                 "COMM LOSS": 28,
                 "ZONE TEMP": 82
@@ -1597,6 +1816,9 @@ async function init() {
             "Bradley Stotts": {
               "total_units": 77,
               "unique_stores": 29,
+              "regions": [
+                "23E"
+              ],
               "reasons": {
                 "ZONE TEMP": 61,
                 "COMM LOSS": 16
@@ -1622,6 +1844,9 @@ async function init() {
           "stats": {
             "total_units": 206,
             "unique_stores": 85,
+            "regions": [
+              "25E"
+            ],
             "reasons": {
               "ZONE TEMP": 141,
               "COMM LOSS": 65
@@ -1646,6 +1871,9 @@ async function init() {
             "Justin Burner": {
               "total_units": 65,
               "unique_stores": 21,
+              "regions": [
+                "25E"
+              ],
               "reasons": {
                 "COMM LOSS": 20,
                 "ZONE TEMP": 45
@@ -1668,6 +1896,9 @@ async function init() {
             "TJ Evans": {
               "total_units": 60,
               "unique_stores": 20,
+              "regions": [
+                "25E"
+              ],
               "reasons": {
                 "ZONE TEMP": 40,
                 "COMM LOSS": 20
@@ -1689,6 +1920,9 @@ async function init() {
             "Thomas Miller": {
               "total_units": 42,
               "unique_stores": 21,
+              "regions": [
+                "25E"
+              ],
               "reasons": {
                 "ZONE TEMP": 29,
                 "COMM LOSS": 13
@@ -1712,6 +1946,9 @@ async function init() {
             "Tony Frankovic": {
               "total_units": 33,
               "unique_stores": 17,
+              "regions": [
+                "25E"
+              ],
               "reasons": {
                 "COMM LOSS": 11,
                 "ZONE TEMP": 22
@@ -1734,6 +1971,9 @@ async function init() {
             "Ken Christensen": {
               "total_units": 6,
               "unique_stores": 6,
+              "regions": [
+                "25E"
+              ],
               "reasons": {
                 "ZONE TEMP": 5,
                 "COMM LOSS": 1
@@ -1757,6 +1997,16 @@ async function init() {
       "stats": {
         "total_units": 1430,
         "unique_stores": 455,
+        "regions": [
+          "31A",
+          "32A",
+          "33A",
+          "34A",
+          "35A",
+          "36A",
+          "37A",
+          "38A"
+        ],
         "reasons": {
           "ZONE TEMP": 923,
           "COMM LOSS": 505,
@@ -1783,6 +2033,9 @@ async function init() {
           "stats": {
             "total_units": 402,
             "unique_stores": 92,
+            "regions": [
+              "36A"
+            ],
             "reasons": {
               "ZONE TEMP": 275,
               "COMM LOSS": 125,
@@ -1807,6 +2060,9 @@ async function init() {
             "Kenneth Jackson": {
               "total_units": 249,
               "unique_stores": 49,
+              "regions": [
+                "36A"
+              ],
               "reasons": {
                 "ZONE TEMP": 177,
                 "COMM LOSS": 72
@@ -1829,6 +2085,9 @@ async function init() {
             "Hiram Tucker": {
               "total_units": 103,
               "unique_stores": 25,
+              "regions": [
+                "36A"
+              ],
               "reasons": {
                 "ZONE TEMP": 56,
                 "COMM LOSS": 46,
@@ -1851,6 +2110,9 @@ async function init() {
             "Charles Eubank": {
               "total_units": 50,
               "unique_stores": 18,
+              "regions": [
+                "36A"
+              ],
               "reasons": {
                 "ZONE TEMP": 42,
                 "COMM LOSS": 7,
@@ -1874,6 +2136,9 @@ async function init() {
           "stats": {
             "total_units": 274,
             "unique_stores": 76,
+            "regions": [
+              "38A"
+            ],
             "reasons": {
               "ZONE TEMP": 112,
               "COMM LOSS": 162
@@ -1898,6 +2163,9 @@ async function init() {
             "Sidney Farrar": {
               "total_units": 111,
               "unique_stores": 25,
+              "regions": [
+                "38A"
+              ],
               "reasons": {
                 "COMM LOSS": 68,
                 "ZONE TEMP": 43
@@ -1920,6 +2188,9 @@ async function init() {
             "Stephan Leonard": {
               "total_units": 63,
               "unique_stores": 20,
+              "regions": [
+                "38A"
+              ],
               "reasons": {
                 "COMM LOSS": 39,
                 "ZONE TEMP": 24
@@ -1943,6 +2214,9 @@ async function init() {
             "Christopher Polk": {
               "total_units": 53,
               "unique_stores": 13,
+              "regions": [
+                "38A"
+              ],
               "reasons": {
                 "ZONE TEMP": 15,
                 "COMM LOSS": 38
@@ -1965,6 +2239,9 @@ async function init() {
             "James Welty": {
               "total_units": 47,
               "unique_stores": 18,
+              "regions": [
+                "38A"
+              ],
               "reasons": {
                 "ZONE TEMP": 30,
                 "COMM LOSS": 17
@@ -1989,6 +2266,9 @@ async function init() {
           "stats": {
             "total_units": 249,
             "unique_stores": 80,
+            "regions": [
+              "33A"
+            ],
             "reasons": {
               "COMM LOSS": 87,
               "ZONE TEMP": 162
@@ -2013,6 +2293,9 @@ async function init() {
             "Steven Phipps": {
               "total_units": 108,
               "unique_stores": 23,
+              "regions": [
+                "33A"
+              ],
               "reasons": {
                 "COMM LOSS": 61,
                 "ZONE TEMP": 47
@@ -2035,6 +2318,9 @@ async function init() {
             "Cameron Harris": {
               "total_units": 60,
               "unique_stores": 21,
+              "regions": [
+                "33A"
+              ],
               "reasons": {
                 "ZONE TEMP": 49,
                 "COMM LOSS": 11
@@ -2057,6 +2343,9 @@ async function init() {
             "Jonathan Weeden": {
               "total_units": 44,
               "unique_stores": 19,
+              "regions": [
+                "33A"
+              ],
               "reasons": {
                 "COMM LOSS": 10,
                 "ZONE TEMP": 34
@@ -2079,6 +2368,9 @@ async function init() {
             "Jason Parmer": {
               "total_units": 37,
               "unique_stores": 17,
+              "regions": [
+                "33A"
+              ],
               "reasons": {
                 "COMM LOSS": 5,
                 "ZONE TEMP": 32
@@ -2102,6 +2394,9 @@ async function init() {
           "stats": {
             "total_units": 207,
             "unique_stores": 70,
+            "regions": [
+              "32A"
+            ],
             "reasons": {
               "ZONE TEMP": 167,
               "COMM LOSS": 40
@@ -2125,6 +2420,9 @@ async function init() {
             "Jason Robinson": {
               "total_units": 62,
               "unique_stores": 21,
+              "regions": [
+                "32A"
+              ],
               "reasons": {
                 "ZONE TEMP": 53,
                 "COMM LOSS": 9
@@ -2147,6 +2445,9 @@ async function init() {
             "Christopher Weaver": {
               "total_units": 53,
               "unique_stores": 17,
+              "regions": [
+                "32A"
+              ],
               "reasons": {
                 "COMM LOSS": 11,
                 "ZONE TEMP": 42
@@ -2168,6 +2469,9 @@ async function init() {
             "Troy Darnell": {
               "total_units": 51,
               "unique_stores": 16,
+              "regions": [
+                "32A"
+              ],
               "reasons": {
                 "ZONE TEMP": 40,
                 "COMM LOSS": 11
@@ -2189,6 +2493,9 @@ async function init() {
             "Braxton Swanner": {
               "total_units": 41,
               "unique_stores": 16,
+              "regions": [
+                "32A"
+              ],
               "reasons": {
                 "ZONE TEMP": 32,
                 "COMM LOSS": 9
@@ -2214,6 +2521,9 @@ async function init() {
           "stats": {
             "total_units": 130,
             "unique_stores": 50,
+            "regions": [
+              "34A"
+            ],
             "reasons": {
               "ZONE TEMP": 100,
               "COMM LOSS": 30
@@ -2238,6 +2548,9 @@ async function init() {
             "Jerald Minchew": {
               "total_units": 67,
               "unique_stores": 20,
+              "regions": [
+                "34A"
+              ],
               "reasons": {
                 "ZONE TEMP": 50,
                 "COMM LOSS": 17
@@ -2258,6 +2571,9 @@ async function init() {
             "William Seymour": {
               "total_units": 38,
               "unique_stores": 15,
+              "regions": [
+                "34A"
+              ],
               "reasons": {
                 "ZONE TEMP": 30,
                 "COMM LOSS": 8
@@ -2280,6 +2596,9 @@ async function init() {
             "Thomas Youmans": {
               "total_units": 15,
               "unique_stores": 8,
+              "regions": [
+                "34A"
+              ],
               "reasons": {
                 "ZONE TEMP": 13,
                 "COMM LOSS": 2
@@ -2299,6 +2618,9 @@ async function init() {
             "Dan Collins": {
               "total_units": 10,
               "unique_stores": 7,
+              "regions": [
+                "34A"
+              ],
               "reasons": {
                 "ZONE TEMP": 7,
                 "COMM LOSS": 3
@@ -2323,6 +2645,9 @@ async function init() {
           "stats": {
             "total_units": 94,
             "unique_stores": 42,
+            "regions": [
+              "35A"
+            ],
             "reasons": {
               "ZONE TEMP": 57,
               "COMM LOSS": 37
@@ -2346,6 +2671,9 @@ async function init() {
             "James Haley": {
               "total_units": 47,
               "unique_stores": 12,
+              "regions": [
+                "35A"
+              ],
               "reasons": {
                 "ZONE TEMP": 23,
                 "COMM LOSS": 24
@@ -2368,6 +2696,9 @@ async function init() {
             "Michael Bushway": {
               "total_units": 20,
               "unique_stores": 12,
+              "regions": [
+                "35A"
+              ],
               "reasons": {
                 "ZONE TEMP": 13,
                 "COMM LOSS": 7
@@ -2388,6 +2719,9 @@ async function init() {
             "Tyler Edwards": {
               "total_units": 18,
               "unique_stores": 11,
+              "regions": [
+                "35A"
+              ],
               "reasons": {
                 "ZONE TEMP": 15,
                 "COMM LOSS": 3
@@ -2409,6 +2743,9 @@ async function init() {
             "Manuel Duprey": {
               "total_units": 7,
               "unique_stores": 5,
+              "regions": [
+                "35A"
+              ],
               "reasons": {
                 "ZONE TEMP": 5,
                 "COMM LOSS": 2
@@ -2429,6 +2766,9 @@ async function init() {
             "Jared Livingston": {
               "total_units": 2,
               "unique_stores": 2,
+              "regions": [
+                "35A"
+              ],
               "reasons": {
                 "ZONE TEMP": 1,
                 "COMM LOSS": 1
@@ -2450,6 +2790,9 @@ async function init() {
           "stats": {
             "total_units": 61,
             "unique_stores": 39,
+            "regions": [
+              "31A"
+            ],
             "reasons": {
               "COMM LOSS": 12,
               "ZONE TEMP": 49
@@ -2473,6 +2816,9 @@ async function init() {
             "Andy Willis": {
               "total_units": 31,
               "unique_stores": 19,
+              "regions": [
+                "31A"
+              ],
               "reasons": {
                 "COMM LOSS": 9,
                 "ZONE TEMP": 22
@@ -2494,6 +2840,9 @@ async function init() {
             "John Kelly": {
               "total_units": 20,
               "unique_stores": 13,
+              "regions": [
+                "31A"
+              ],
               "reasons": {
                 "ZONE TEMP": 19,
                 "COMM LOSS": 1
@@ -2515,6 +2864,9 @@ async function init() {
             "Mike Price": {
               "total_units": 8,
               "unique_stores": 5,
+              "regions": [
+                "31A"
+              ],
               "reasons": {
                 "ZONE TEMP": 7,
                 "COMM LOSS": 1
@@ -2535,6 +2887,9 @@ async function init() {
             "Clayton Cavitt": {
               "total_units": 2,
               "unique_stores": 2,
+              "regions": [
+                "31A"
+              ],
               "reasons": {
                 "ZONE TEMP": 1,
                 "COMM LOSS": 1
@@ -2556,6 +2911,9 @@ async function init() {
           "stats": {
             "total_units": 13,
             "unique_stores": 6,
+            "regions": [
+              "37A"
+            ],
             "reasons": {
               "COMM LOSS": 12,
               "ZONE TEMP": 1
@@ -2576,6 +2934,9 @@ async function init() {
             "Gil A Soler Garcia": {
               "total_units": 13,
               "unique_stores": 6,
+              "regions": [
+                "37A"
+              ],
               "reasons": {
                 "COMM LOSS": 12,
                 "ZONE TEMP": 1
@@ -2600,6 +2961,13 @@ async function init() {
       "stats": {
         "total_units": 1366,
         "unique_stores": 440,
+        "regions": [
+          "1M",
+          "2M",
+          "3M",
+          "4M",
+          "5M"
+        ],
         "reasons": {
           "ZONE TEMP": 631,
           "COMM LOSS": 735
@@ -2625,6 +2993,9 @@ async function init() {
           "stats": {
             "total_units": 414,
             "unique_stores": 111,
+            "regions": [
+              "1M"
+            ],
             "reasons": {
               "COMM LOSS": 241,
               "ZONE TEMP": 173
@@ -2649,6 +3020,9 @@ async function init() {
             "Randy Dunne": {
               "total_units": 127,
               "unique_stores": 27,
+              "regions": [
+                "1M"
+              ],
               "reasons": {
                 "COMM LOSS": 80,
                 "ZONE TEMP": 47
@@ -2672,6 +3046,9 @@ async function init() {
             "Sam Gaeta": {
               "total_units": 92,
               "unique_stores": 20,
+              "regions": [
+                "1M"
+              ],
               "reasons": {
                 "ZONE TEMP": 45,
                 "COMM LOSS": 47
@@ -2694,6 +3071,9 @@ async function init() {
             "Nathan Daniel": {
               "total_units": 83,
               "unique_stores": 16,
+              "regions": [
+                "1M"
+              ],
               "reasons": {
                 "COMM LOSS": 61,
                 "ZONE TEMP": 22
@@ -2716,6 +3096,9 @@ async function init() {
             "Joel St John": {
               "total_units": 76,
               "unique_stores": 26,
+              "regions": [
+                "1M"
+              ],
               "reasons": {
                 "ZONE TEMP": 38,
                 "COMM LOSS": 38
@@ -2738,6 +3121,9 @@ async function init() {
             "Sean Garrett": {
               "total_units": 19,
               "unique_stores": 14,
+              "regions": [
+                "1M"
+              ],
               "reasons": {
                 "ZONE TEMP": 14,
                 "COMM LOSS": 5
@@ -2758,6 +3144,9 @@ async function init() {
             "Ignacio Vega": {
               "total_units": 17,
               "unique_stores": 8,
+              "regions": [
+                "1M"
+              ],
               "reasons": {
                 "COMM LOSS": 10,
                 "ZONE TEMP": 7
@@ -2780,6 +3169,9 @@ async function init() {
           "stats": {
             "total_units": 356,
             "unique_stores": 122,
+            "regions": [
+              "5M"
+            ],
             "reasons": {
               "ZONE TEMP": 186,
               "COMM LOSS": 170
@@ -2803,6 +3195,9 @@ async function init() {
             "Melissa Ross": {
               "total_units": 130,
               "unique_stores": 27,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "ZONE TEMP": 59,
                 "COMM LOSS": 71
@@ -2825,6 +3220,9 @@ async function init() {
             "Dennis Blagdon": {
               "total_units": 67,
               "unique_stores": 21,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "COMM LOSS": 30,
                 "ZONE TEMP": 37
@@ -2846,6 +3244,9 @@ async function init() {
             "Micah Mclaughlin": {
               "total_units": 38,
               "unique_stores": 14,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "COMM LOSS": 12,
                 "ZONE TEMP": 26
@@ -2868,6 +3269,9 @@ async function init() {
             "Todd Jensen": {
               "total_units": 36,
               "unique_stores": 18,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "COMM LOSS": 20,
                 "ZONE TEMP": 16
@@ -2889,6 +3293,9 @@ async function init() {
             "Kevlin Bruns": {
               "total_units": 30,
               "unique_stores": 17,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "COMM LOSS": 15,
                 "ZONE TEMP": 15
@@ -2910,6 +3317,9 @@ async function init() {
             "Hien Nguyen": {
               "total_units": 29,
               "unique_stores": 16,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "COMM LOSS": 12,
                 "ZONE TEMP": 17
@@ -2931,6 +3341,9 @@ async function init() {
             "Samuel Lara": {
               "total_units": 26,
               "unique_stores": 9,
+              "regions": [
+                "5M"
+              ],
               "reasons": {
                 "COMM LOSS": 10,
                 "ZONE TEMP": 16
@@ -2955,6 +3368,9 @@ async function init() {
           "stats": {
             "total_units": 296,
             "unique_stores": 87,
+            "regions": [
+              "4M"
+            ],
             "reasons": {
               "COMM LOSS": 165,
               "ZONE TEMP": 131
@@ -2979,6 +3395,9 @@ async function init() {
             "Tony Weaver": {
               "total_units": 133,
               "unique_stores": 20,
+              "regions": [
+                "4M"
+              ],
               "reasons": {
                 "COMM LOSS": 104,
                 "ZONE TEMP": 29
@@ -3000,6 +3419,9 @@ async function init() {
             "Rodney Hullinger": {
               "total_units": 61,
               "unique_stores": 24,
+              "regions": [
+                "4M"
+              ],
               "reasons": {
                 "ZONE TEMP": 37,
                 "COMM LOSS": 24
@@ -3022,6 +3444,9 @@ async function init() {
             "Shawn Bancroft": {
               "total_units": 61,
               "unique_stores": 23,
+              "regions": [
+                "4M"
+              ],
               "reasons": {
                 "ZONE TEMP": 40,
                 "COMM LOSS": 21
@@ -3044,6 +3469,9 @@ async function init() {
             "Kevin Booher": {
               "total_units": 41,
               "unique_stores": 20,
+              "regions": [
+                "4M"
+              ],
               "reasons": {
                 "ZONE TEMP": 25,
                 "COMM LOSS": 16
@@ -3069,6 +3497,9 @@ async function init() {
           "stats": {
             "total_units": 209,
             "unique_stores": 69,
+            "regions": [
+              "2M"
+            ],
             "reasons": {
               "COMM LOSS": 114,
               "ZONE TEMP": 95
@@ -3093,6 +3524,9 @@ async function init() {
             "Carl Camacho": {
               "total_units": 72,
               "unique_stores": 29,
+              "regions": [
+                "2M"
+              ],
               "reasons": {
                 "COMM LOSS": 34,
                 "ZONE TEMP": 38
@@ -3115,6 +3549,9 @@ async function init() {
             "Terrell Campbell": {
               "total_units": 71,
               "unique_stores": 22,
+              "regions": [
+                "2M"
+              ],
               "reasons": {
                 "COMM LOSS": 43,
                 "ZONE TEMP": 28
@@ -3137,6 +3574,9 @@ async function init() {
             "Joshua Dunne": {
               "total_units": 66,
               "unique_stores": 18,
+              "regions": [
+                "2M"
+              ],
               "reasons": {
                 "ZONE TEMP": 29,
                 "COMM LOSS": 37
@@ -3162,6 +3602,9 @@ async function init() {
           "stats": {
             "total_units": 91,
             "unique_stores": 51,
+            "regions": [
+              "3M"
+            ],
             "reasons": {
               "COMM LOSS": 45,
               "ZONE TEMP": 46
@@ -3186,6 +3629,9 @@ async function init() {
             "Dave Morrin": {
               "total_units": 47,
               "unique_stores": 24,
+              "regions": [
+                "3M"
+              ],
               "reasons": {
                 "COMM LOSS": 24,
                 "ZONE TEMP": 23
@@ -3209,6 +3655,9 @@ async function init() {
             "Robert Santoyo": {
               "total_units": 35,
               "unique_stores": 21,
+              "regions": [
+                "3M"
+              ],
               "reasons": {
                 "ZONE TEMP": 21,
                 "COMM LOSS": 14
@@ -3232,6 +3681,9 @@ async function init() {
             "Lindsey Lombard": {
               "total_units": 9,
               "unique_stores": 6,
+              "regions": [
+                "3M"
+              ],
               "reasons": {
                 "COMM LOSS": 7,
                 "ZONE TEMP": 2
@@ -3256,6 +3708,14 @@ async function init() {
       "stats": {
         "total_units": 914,
         "unique_stores": 367,
+        "regions": [
+          "10B",
+          "11B",
+          "12B",
+          "13B",
+          "14B",
+          "15B"
+        ],
         "reasons": {
           "COMM LOSS": 571,
           "ZONE TEMP": 343
@@ -3281,6 +3741,9 @@ async function init() {
           "stats": {
             "total_units": 204,
             "unique_stores": 63,
+            "regions": [
+              "12B"
+            ],
             "reasons": {
               "COMM LOSS": 138,
               "ZONE TEMP": 66
@@ -3305,6 +3768,9 @@ async function init() {
             "Israel Carmona": {
               "total_units": 72,
               "unique_stores": 12,
+              "regions": [
+                "12B"
+              ],
               "reasons": {
                 "COMM LOSS": 57,
                 "ZONE TEMP": 15
@@ -3326,6 +3792,9 @@ async function init() {
             "Elmer Lea": {
               "total_units": 60,
               "unique_stores": 17,
+              "regions": [
+                "12B"
+              ],
               "reasons": {
                 "COMM LOSS": 39,
                 "ZONE TEMP": 21
@@ -3346,6 +3815,9 @@ async function init() {
             "Brandon Snowdy": {
               "total_units": 52,
               "unique_stores": 23,
+              "regions": [
+                "12B"
+              ],
               "reasons": {
                 "ZONE TEMP": 21,
                 "COMM LOSS": 31
@@ -3368,6 +3840,9 @@ async function init() {
             "Oussama Kassem": {
               "total_units": 20,
               "unique_stores": 11,
+              "regions": [
+                "12B"
+              ],
               "reasons": {
                 "COMM LOSS": 11,
                 "ZONE TEMP": 9
@@ -3391,6 +3866,9 @@ async function init() {
           "stats": {
             "total_units": 196,
             "unique_stores": 71,
+            "regions": [
+              "13B"
+            ],
             "reasons": {
               "ZONE TEMP": 97,
               "COMM LOSS": 99
@@ -3415,6 +3893,9 @@ async function init() {
             "Scott Molesworth": {
               "total_units": 58,
               "unique_stores": 16,
+              "regions": [
+                "13B"
+              ],
               "reasons": {
                 "ZONE TEMP": 33,
                 "COMM LOSS": 25
@@ -3437,6 +3918,9 @@ async function init() {
             "Heath Wills": {
               "total_units": 42,
               "unique_stores": 15,
+              "regions": [
+                "13B"
+              ],
               "reasons": {
                 "ZONE TEMP": 20,
                 "COMM LOSS": 22
@@ -3458,6 +3942,9 @@ async function init() {
             "Gary Williams": {
               "total_units": 39,
               "unique_stores": 16,
+              "regions": [
+                "13B"
+              ],
               "reasons": {
                 "COMM LOSS": 29,
                 "ZONE TEMP": 10
@@ -3480,6 +3967,9 @@ async function init() {
             "John Thompson": {
               "total_units": 30,
               "unique_stores": 16,
+              "regions": [
+                "13B"
+              ],
               "reasons": {
                 "COMM LOSS": 11,
                 "ZONE TEMP": 19
@@ -3501,6 +3991,9 @@ async function init() {
             "Danny Wood": {
               "total_units": 27,
               "unique_stores": 8,
+              "regions": [
+                "13B"
+              ],
               "reasons": {
                 "ZONE TEMP": 15,
                 "COMM LOSS": 12
@@ -3525,6 +4018,9 @@ async function init() {
           "stats": {
             "total_units": 180,
             "unique_stores": 84,
+            "regions": [
+              "14B"
+            ],
             "reasons": {
               "COMM LOSS": 100,
               "ZONE TEMP": 80
@@ -3549,6 +4045,9 @@ async function init() {
             "Daniel Gray": {
               "total_units": 59,
               "unique_stores": 32,
+              "regions": [
+                "14B"
+              ],
               "reasons": {
                 "COMM LOSS": 40,
                 "ZONE TEMP": 19
@@ -3572,6 +4071,9 @@ async function init() {
             "Garry Montgomery": {
               "total_units": 52,
               "unique_stores": 20,
+              "regions": [
+                "14B"
+              ],
               "reasons": {
                 "ZONE TEMP": 27,
                 "COMM LOSS": 25
@@ -3594,6 +4096,9 @@ async function init() {
             "Jeremiah Barrett": {
               "total_units": 43,
               "unique_stores": 18,
+              "regions": [
+                "14B"
+              ],
               "reasons": {
                 "COMM LOSS": 23,
                 "ZONE TEMP": 20
@@ -3617,6 +4122,9 @@ async function init() {
             "Lon Whitley": {
               "total_units": 26,
               "unique_stores": 14,
+              "regions": [
+                "14B"
+              ],
               "reasons": {
                 "COMM LOSS": 12,
                 "ZONE TEMP": 14
@@ -3642,6 +4150,9 @@ async function init() {
           "stats": {
             "total_units": 152,
             "unique_stores": 79,
+            "regions": [
+              "11B"
+            ],
             "reasons": {
               "ZONE TEMP": 46,
               "COMM LOSS": 106
@@ -3666,6 +4177,9 @@ async function init() {
             "Alberto Cortez": {
               "total_units": 53,
               "unique_stores": 18,
+              "regions": [
+                "11B"
+              ],
               "reasons": {
                 "ZONE TEMP": 17,
                 "COMM LOSS": 36
@@ -3689,6 +4203,9 @@ async function init() {
             "Kenneth Quigley": {
               "total_units": 39,
               "unique_stores": 25,
+              "regions": [
+                "11B"
+              ],
               "reasons": {
                 "ZONE TEMP": 17,
                 "COMM LOSS": 22
@@ -3712,6 +4229,9 @@ async function init() {
             "Gabriel Carmona": {
               "total_units": 33,
               "unique_stores": 20,
+              "regions": [
+                "11B"
+              ],
               "reasons": {
                 "COMM LOSS": 26,
                 "ZONE TEMP": 7
@@ -3733,6 +4253,9 @@ async function init() {
             "Carl Hammond": {
               "total_units": 27,
               "unique_stores": 16,
+              "regions": [
+                "11B"
+              ],
               "reasons": {
                 "ZONE TEMP": 5,
                 "COMM LOSS": 22
@@ -3757,6 +4280,9 @@ async function init() {
           "stats": {
             "total_units": 112,
             "unique_stores": 38,
+            "regions": [
+              "10B"
+            ],
             "reasons": {
               "COMM LOSS": 85,
               "ZONE TEMP": 27
@@ -3780,6 +4306,9 @@ async function init() {
             "Ralph Vasquez": {
               "total_units": 48,
               "unique_stores": 12,
+              "regions": [
+                "10B"
+              ],
               "reasons": {
                 "COMM LOSS": 34,
                 "ZONE TEMP": 14
@@ -3802,6 +4331,9 @@ async function init() {
             "Christopher Fuentes": {
               "total_units": 40,
               "unique_stores": 11,
+              "regions": [
+                "10B"
+              ],
               "reasons": {
                 "COMM LOSS": 34,
                 "ZONE TEMP": 6
@@ -3823,6 +4355,9 @@ async function init() {
             "Israel Pino": {
               "total_units": 19,
               "unique_stores": 11,
+              "regions": [
+                "10B"
+              ],
               "reasons": {
                 "ZONE TEMP": 4,
                 "COMM LOSS": 15
@@ -3844,6 +4379,9 @@ async function init() {
             "Gabe Macias": {
               "total_units": 5,
               "unique_stores": 4,
+              "regions": [
+                "10B"
+              ],
               "reasons": {
                 "ZONE TEMP": 3,
                 "COMM LOSS": 2
@@ -3866,6 +4404,9 @@ async function init() {
           "stats": {
             "total_units": 70,
             "unique_stores": 32,
+            "regions": [
+              "15B"
+            ],
             "reasons": {
               "ZONE TEMP": 27,
               "COMM LOSS": 43
@@ -3888,6 +4429,9 @@ async function init() {
             "Dane Clayton": {
               "total_units": 26,
               "unique_stores": 8,
+              "regions": [
+                "15B"
+              ],
               "reasons": {
                 "ZONE TEMP": 6,
                 "COMM LOSS": 20
@@ -3908,6 +4452,9 @@ async function init() {
             "David Guess": {
               "total_units": 25,
               "unique_stores": 15,
+              "regions": [
+                "15B"
+              ],
               "reasons": {
                 "COMM LOSS": 12,
                 "ZONE TEMP": 13
@@ -3929,6 +4476,9 @@ async function init() {
             "Eric Gray": {
               "total_units": 16,
               "unique_stores": 6,
+              "regions": [
+                "15B"
+              ],
               "reasons": {
                 "COMM LOSS": 9,
                 "ZONE TEMP": 7
@@ -3949,6 +4499,9 @@ async function init() {
             "Jason McAlester": {
               "total_units": 3,
               "unique_stores": 3,
+              "regions": [
+                "15B"
+              ],
               "reasons": {
                 "ZONE TEMP": 1,
                 "COMM LOSS": 2
@@ -4083,7 +4636,7 @@ function renderSrDirectorSection(name, data) {
           <span class="chevron text-[#0053e2] text-xl" id="chev-${sdId}">▶</span>
           <div>
             <h2 class="text-lg font-bold text-gray-900">Sr. Director: ${name}</h2>
-            <p class="text-sm text-gray-500">${dirEntries.length} Directors &bull; ${s.unique_stores.toLocaleString()} Stores</p>
+            <p class="text-sm text-gray-500">${dirEntries.length} Directors &bull; ${s.unique_stores.toLocaleString()} Stores &bull; Regions: ${(s.regions||[]).join(', ') || 'N/A'}</p>
           </div>
         </div>
         <div class="flex gap-4 text-sm">
@@ -4115,6 +4668,7 @@ function renderDirectorSection(name, data, parentId) {
   for (const [rmName, rmStats] of rmEntries) {
     rmRows += `<tr class="hover:bg-gray-50 rm-row" data-name="${rmName.toLowerCase()}">
       <td class="px-4 py-2 font-medium text-gray-900">${rmName}</td>
+      <td class="px-4 py-2 text-center"><span class="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-semibold">${(rmStats.regions||[]).join(', ') || '-'}</span></td>
       <td class="px-4 py-2 text-center">${rmStats.total_units}</td>
       <td class="px-4 py-2 text-center">${rmStats.unique_stores}</td>
       <td class="px-4 py-2 text-center text-red-600 font-semibold">${rmStats.reasons['ZONE TEMP']||0}</td>
@@ -4135,7 +4689,7 @@ function renderDirectorSection(name, data, parentId) {
       <div class="flex items-center gap-3">
         <span class="chevron text-[#0053e2] text-sm" id="chev-${dId}">▶</span>
         <div>
-          <h3 class="font-semibold text-gray-800">Director: ${name}</h3>
+          <h3 class="font-semibold text-gray-800">Director: ${name} ${(s.regions||[]).length ? '<span class="text-xs bg-[#0053e2] text-white px-2 py-0.5 rounded-full ml-2">Region ' + (s.regions||[]).join(', ') + '</span>' : ''}</h3>
           <p class="text-xs text-gray-500">${rmEntries.length} Regional Managers</p>
         </div>
       </div>
@@ -4151,6 +4705,7 @@ function renderDirectorSection(name, data, parentId) {
             <thead>
               <tr class="bg-gray-100 text-gray-600 text-xs uppercase">
                 <th class="px-4 py-2 text-left">Regional Manager</th>
+                <th class="px-4 py-2 text-center">Region</th>
                 <th class="px-4 py-2 text-center">Terminal Units</th>
                 <th class="px-4 py-2 text-center">Stores</th>
                 <th class="px-4 py-2 text-center">Zone Temp</th>
